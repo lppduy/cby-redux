@@ -13,5 +13,9 @@
         "webpack": "^5.88.2",
         "webpack-cli": "3.3.11",
         "webpack-dev-server": "^3.10.3"
+    },
+    "dependencies": {
+        "@reduxjs/toolkit": "^1.9.7",
+        "redux": "^4.2.1"
     }
 }
