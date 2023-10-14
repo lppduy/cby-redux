@@ -1,15 +1,5 @@
 import store from './store/configureStore';
-import { addTask, completedTask, removeTask } from './store/task';
-// const unsubscribe = store.subscribe(() => {
-// console.log('updated', store.getState());
-// });
+import { completedTask, addTask } from './store/task';
+import { addEmployee } from './store/employees';
 
-store.dispatch(addTask({ task: 'Coding' }));
-store.dispatch(addTask({ task: 'Sleeping' }));
-// console.log(store.getState());
-// unsubscribe();
-
-store.dispatch(completedTask({ id: 2 }));
-
-// store.dispatch(removeTask({id:1}));
-console.log(store.getState());
+store.dispatch(addEmployee({ name: 'lppd' }));
